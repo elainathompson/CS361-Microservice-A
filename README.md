@@ -13,7 +13,7 @@ $ pip3 install requests flask
 
 ```
 $ rm accounts.sqlite # optional, wipes the database
-$ flask --app main run
+$ flask --app main run # optional [-p port], defaults to 5000
 ```
 
 ## creating an account
