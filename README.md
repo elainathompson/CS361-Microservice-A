@@ -9,6 +9,13 @@
 $ pip3 install requests flask
 ```
 
+## running the service
+
+```
+$ rm accounts.sqlite # optional, wipes the database
+$ flask --app main run
+```
+
 ## creating an account
 
 ```py
